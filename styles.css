@@ -663,6 +663,16 @@ body {
     color: white;
 }
 
+.pub-link-text {
+    padding: 0.5rem 1rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-style: italic;
+}
+
 /* ====================================
    Experience Section
    ==================================== */
