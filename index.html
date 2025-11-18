@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suryaprakash Rajkumar - PhD Researcher in Robotics, Control Systems and Learning Models for Autonomous Systems.">
+    <meta name="author" content="Suryaprakash Rajkumar">
+    <title>Suryaprakash Rajkumar | PhD Researcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="profile-section">
+                <h1 class="profile-name">Suryaprakash Rajkumar</h1>
+                <p class="profile-title">PhD Researcher</p>
+                <p class="profile-affiliation">Concordia University</p>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link active">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#education" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </a>
+                <a href="#publications" class="nav-link">
+                    <i class="fas fa-book"></i>
+                    <span>Publications</span>
+                </a>
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#cv" class="nav-link">
+                    <i class="fas fa-file-alt"></i>
+                    <span>CV</span>
+                </a>
+            </nav>
+
+            <div class="social-links">
+                <a href="mailto:suryaprakash.rajkumar@concordia.ca" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=fkNlaOUAAAAJ" target="_blank" class="social-link" title="Google Scholar">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                <a href="https://github.com/suryaprakashrajkumar" target="_blank" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/suryaprakashrajkumar" target="_blank" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content-wrapper">
+                <div class="about-content">
+                    <p class="intro-text">
+                        I am a PhD researcher in control systems and mobile robotics, with a strong focus on combining 
+                        model-based control with data-driven learning methods for navigation and control. My work bridges 
+                        classical nonlinear control, optimal control, and modern machine learning to design systems that 
+                        move through the world with greater accuracy, stability, and adaptability.
+                    </p>
+                    <p>
+                        My research spans learning-based trajectory tracking, set-theoretic safety methods, and predictive 
+                        control for multi-agent systems. I develop controllers capable of real-time execution on affordable 
+                        robotic hardware, while maintaining formal guarantees on constraint satisfaction and collision avoidance.
+                    </p>
+                    <p>
+                        I work extensively with ground robots and multi-vehicle platforms, investigating how robot models 
+                        and action models can complement or enhance robust controllers. Across all my work, I aim to bridge 
+                        theoretical safety guarantees with practical, on-hardware implementation. Ultimately, my goal is to 
+                        develop control and learning frameworks that make autonomous robotic systems both smarter and more 
+                        trustworthy, enabling them to navigate, coordinate, and interact safely in complex, real-world environments.
+                    </p>
+                    
+                    <div class="research-interests">
+                        <h3><i class="fas fa-lightbulb"></i> Research Interests</h3>
+                        <div class="interests-grid">
+                            <div class="interest-item">
+                                <div class="interest-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <span>Mobile & Aerial Robotics</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <span>Optimal Control Methods</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <span>Imitation Learning </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/me.png" alt="Suryaprakash Rajkumar" class="profile-picture">
+                    <div class="profile-info">
+                        <p class="profile-group">
+                            <a href="https://users.encs.concordia.ca/~wlucia/Group.html" target="_blank" rel="noopener noreferrer">
+                                <strong>PreCySe Group</strong>
+                            </a>
+                        </p>
+                        <p class="profile-affiliation">Concordia University</p>
+                        <p class="profile-office">Office EV10.210, GW Campus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="edu-timeline-marker"></div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <h3 class="edu-title">PhD in Information Systems Engineering</h3>
+                            <span class="edu-duration">Sept 2024 - Present</span>
+                        </div>
+                        <p class="edu-organization">
+                            <i class="fas fa-university"></i> 
+                            Concordia University
+                        </p>
+                        <p class="edu-location">
+                            <i class="fas fa-map-marker-alt"></i> Montreal, Canada
+                        </p>
+                        <ul class="edu-details">
+                            <li><strong>Supervisor:</strong> Prof. Walter Lucia</li>
+                            <li><strong>Group:</strong> Predictive Cyber-Physical System Security Group (PreCySe)</li>
+                            <li><strong>Courses:</strong> Multi-agent Systems, Nonlinear Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="edu-timeline-marker"></div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <h3 class="edu-title">MASc in Quality Systems Engineering</h3>
+                            <span class="edu-duration">Sept 2022 - Aug 2024</span>
+                        </div>
+                        <p class="edu-organization">
+                            <i class="fas fa-university"></i> 
+                            Concordia University
+                        </p>
+                        <p class="edu-location">
+                            <i class="fas fa-map-marker-alt"></i> Montreal, Canada
+                        </p>
+                        <ul class="edu-details">
+                            <li><strong>Supervisor:</strong> Prof. Walter Lucia</li>
+                            <li><strong>Group:</strong> Predictive Cyber-Physical System Security Group (PreCySe)</li>
+                            <li><strong>Courses:</strong> Linear System, TQM, Advanced Statistics, Cyber-physical Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="edu-timeline-marker"></div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <h3 class="edu-title">B.Tech in Mechanical Engineering</h3>
+                            <span class="edu-duration">Sept 2018 - Aug 2022</span>
+                        </div>
+                        <p class="edu-organization">
+                            <i class="fas fa-university"></i> 
+                            Vellore Institute of Technology
+                        </p>
+                        <p class="edu-location">
+                            <i class="fas fa-map-marker-alt"></i> Chennai, India
+                        </p>
+                        <ul class="edu-details">
+                            <li><strong>Supervisor:</strong> Prof. Arockia Selvakumar</li>
+                            <li><strong>Courses:</strong> Control Systems, Mechatronics, Mechanics, Thermodynamics, System Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Publications</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="publications-list">
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">A Real-Time Affordable Predictive Trajectory Tracking Controller for Differential Drive Robots via Imitation Learning</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Walter Lucia</p>
+                        <p class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA) 2026</p>
+                        <div class="pub-links">
+                            <a href="https://github.com/suryaprakashrajkumar/IL-NMPC-Controller" target="_blank" class="pub-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/ICRA.png" alt="ICRA Publication">
+                        </div>
+                        <span class="pub-status">Under Review</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">A Set-Theoretic Control Strategy for a Platoon of Constrained Differential-Drive Robots with Inter-Vehicle Collision Avoidance</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Walter Lucia</p>
+                        <p class="pub-venue">IEEE Transactions on Automation Science and Engineering, 2025</p>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/TASE.png" alt="TASE Publication">
+                        </div>
+                        <span class="pub-status">Under Review</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">Guaranteed Set-Theoretic Collision Avoidance in Multi-Agent Mobile Robotic Systems</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Walter Lucia</p>
+                        <p class="pub-venue">Manuscript under preparation</p>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/collision_avoidance.png" alt="Collision Avoidance Publication">
+                        </div>
+                        <span class="pub-status">Under Preparation</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">Collision-Free Platooning of Mobile Robots Through a Set-Theoretic Predictive Control Approach</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Cristian Tiriolo, Walter Lucia</p>
+                        <p class="pub-venue">2024 American Control Conference (ACC), pp. 608-613, July 2024</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.23919/ACC60939.2024.10645024" target="_blank" class="pub-link">
+                                <i class="fas fa-external-link-alt"></i> DOI
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/ACC.png" alt="ACC Publication">
+                        </div>
+                        <span class="pub-status">Published</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">ME-CapsNet: A Multi-Enhanced Capsule Networks with Routing Mechanism</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Jerrin Bright, Arockia Selvakumar</p>
+                        <p class="pub-venue">2022 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT), pp. 1-6, July 2022</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.1109/CONECCT55679.2022.9865853" target="_blank" class="pub-link">
+                                <i class="fas fa-external-link-alt"></i> DOI
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/CONECCT.png" alt="CONECCT Publication">
+                        </div>
+                        <span class="pub-status">Published</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">Optimization of Quadcopter Frame Using Generative Design and Comparison with DJI F450 Drone Frame</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong>, Jerrin Bright, Akash S, Giridharan A</p>
+                        <p class="pub-venue">International Conference of Robotics, Intelligent Automation and Control Technologies, Chennai, India, 2021</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.1088/1757-899X/1012/1/012019" target="_blank" class="pub-link">
+                                <i class="fas fa-external-link-alt"></i> DOI
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/RIACT.JPG" alt="RIACT Publication">
+                        </div>
+                        <span class="pub-status">Published</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">Robust Set Theoretic MPC-based Guidance for Guaranteed Collision Avoidance in Multi-Agent Robotic System</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong></p>
+                        <p class="pub-venue">Research Poster, Bi-Annual Meeting on Systems and Control Theory (MSCT), Waterloo, Canada, 2023</p>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/MCST_poster.png" alt="MSCT Poster">
+                        </div>
+                        <span class="pub-status">Poster</span>
+                    </div>
+                </article>
+
+                <article class="publication-item">
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <h3 class="pub-title">Event-based Dynamic Obstacle Avoidance for Outdoor Environments</h3>
+                        </div>
+                        <p class="pub-authors"><strong>Suryaprakash Rajkumar</strong></p>
+                        <p class="pub-venue">Research Poster, International Conference on Intelligent Robots and Systems (IROS), Prague, Czech Republic, 2021</p>
+                    </div>
+                    <div class="pub-image-wrapper">
+                        <div class="pub-image">
+                            <img src="assets/publication/IROS_poster.png" alt="IROS Poster">
+                        </div>
+                        <span class="pub-status">Poster</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="exp-timeline-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-logo">
+                            <img src="assets/logos/artpark.png" alt="ARTPARK Logo">
+                        </div>
+                        <div class="exp-header">
+                            <h3 class="exp-title">Research Intern</h3>
+                            <span class="exp-duration">Nov 2021 - Apr 2022</span>
+                        </div>
+                        <p class="exp-organization">
+                            <i class="fas fa-building"></i> 
+                            ARTPARK, Artificial Intelligence and Robotics Laboratory, IISc
+                        </p>
+                        <p class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i> Bangalore, India
+                        </p>
+                        <ul class="exp-highlights">
+                            <li>Worked on event vision based end-to-end agile navigation of a quadrotor in a cluttered environment</li>
+                            <li>Developed and deployed a module for event-to-depth prediction using a spiking neural network for efficient monocular depth prediction for dynamic obstacle avoidance intended to be used on neuromorphic chip (Intel Loihi)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-timeline-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-logo">
+                            <img src="assets/logos/iisc.png" alt="IISc Logo">
+                        </div>
+                        <div class="exp-header">
+                            <h3 class="exp-title">Research Intern</h3>
+                            <span class="exp-duration">Jul 2021 - Nov 2021</span>
+                        </div>
+                        <p class="exp-organization">
+                            <i class="fas fa-building"></i> 
+                            Robotics Innovations Lab, IISc
+                        </p>
+                        <p class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i> Bangalore, India
+                        </p>
+                        <ul class="exp-highlights">
+                            <li>Used neuromorphic/event cameras to perform dynamic obstacle avoidance in a constrained outdoor space using an autonomous ground vehicle and aerial platforms</li>
+                            <li>Conceptualized and developed human-UAV collaboration solutions to perform autonomous collaborative asset inspection in an industrial warehouse/assembly line setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-timeline-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-logo">
+                            <img src="assets/logos/asu.png" alt="ASU Logo">
+                        </div>
+                        <div class="exp-header">
+                            <h3 class="exp-title">Summer Research Intern</h3>
+                            <span class="exp-duration">May 2021 - Jul 2021</span>
+                        </div>
+                        <p class="exp-organization">
+                            <i class="fas fa-building"></i> 
+                            Arizona State University
+                        </p>
+                        <p class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i> Phoenix, USA
+                        </p>
+                        <ul class="exp-highlights">
+                            <li>Digitized construction spaces using laser scanning and photogrammetry via sensor fusion</li>
+                            <li>Deep learning algorithms were used for automated analysis</li>
+                            <li>The digital representations made was processed to provide insights to builders and stewards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-timeline-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-logo">
+                            <img src="assets/logos/aero2astro.png" alt="Aero2Astro Logo">
+                        </div>
+                        <div class="exp-header">
+                            <h3 class="exp-title">Autonomous System Developer - Intern</h3>
+                            <span class="exp-duration">Oct 2020 - Apr 2021</span>
+                        </div>
+                        <p class="exp-organization">
+                            <i class="fas fa-building"></i> 
+                            Aero2Astro
+                        </p>
+                        <p class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i> Chennai, India
+                        </p>
+                        <ul class="exp-highlights">
+                            <li>Developed ROS-based autonomous navigation firmware using Visual Inertial SLAM capable of working in indoor, outdoor, and GPS-denied environments</li>
+                            <li>Experiments were conceptualized and conducted for monocular vision SLAM using ORB3 SLAM specifically designed for aerial vehicles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-timeline-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-logo">
+                            <img src="assets/logos/yuanze.png" alt="Yuan-Ze University Logo">
+                        </div>
+                        <div class="exp-header">
+                            <h3 class="exp-title">Project Research Intern</h3>
+                            <span class="exp-duration">Apr 2020 - Jun 2020</span>
+                        </div>
+                        <p class="exp-organization">
+                            <i class="fas fa-building"></i> 
+                            Yuan-Ze University
+                        </p>
+                        <p class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i> Taoyuan City, Taiwan
+                        </p>
+                        <ul class="exp-highlights">
+                            <li>Deployed multiple ROS packages for KUKA-based manipulators and simulated various ROS Industrial packages using MoveIt</li>
+                            <li>Implemented forward and inverse kinematics for a 6 DOF custom-designed manipulator in ROS Industrial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Projects Section -->
+        <section id="projects" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Research Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-badge">Naval Research - Canadian Armed Forces</div>
+                    </div>
+                    <h3 class="project-title">Setpoint Attack Detection on a Networked Control System</h3>
+                    <p class="project-description">
+                        Designed a command governor cyber-attack detection solution to detect attacks on setpoints/references 
+                        shared through a network which was tested on a high-fidelity simulation of a fleet of naval vessels.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Cyber Security</span>
+                        <span class="project-tag">Networked Control</span>
+                        <span class="project-tag">Attack Detection</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div class="project-badge">Naval Research - Canadian Armed Forces</div>
+                    </div>
+                    <h3 class="project-title">GAN-based Optimal Attack Detection and Generation on GNSS Measurement</h3>
+                    <p class="project-description">
+                        Architected and implemented an LSTM-GAN network to detect attacks on GNSS through a discriminator 
+                        network and generate optimal attack vectors through a generator network that cannot be detected through 
+                        classical statistical-based cyber-attack detection mechanisms.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Deep Learning</span>
+                        <span class="project-tag">GAN</span>
+                        <span class="project-tag">GNSS Security</span>
+                        <span class="project-tag">LSTM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CV Section -->
+        <section id="cv" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Curriculum Vitae</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="cv-content">
+                <p class="cv-intro">
+                    Download my complete curriculum vitae for detailed information about my education, research experience, 
+                    publications, skills, and achievements.
+                </p>
+                
+                <div class="cv-download">
+                    <a href="assets/CV_SuryaprakashRajkumar.pdf" class="cv-download-btn" download>
+                        <i class="fas fa-download"></i> Download Full CV (PDF)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Suryaprakash Rajkumar. All rights reserved.</p>
+            <p class="footer-note">Last updated: November 2025</p>
+        </footer>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
