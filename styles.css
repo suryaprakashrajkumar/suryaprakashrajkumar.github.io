@@ -427,7 +427,7 @@ body {
 }
 
 .interest-icon i {
-    color: white;
+    color: var(--text-primary);
     font-size: var(--font-content);
 }
 
