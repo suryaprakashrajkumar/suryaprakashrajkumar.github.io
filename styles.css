@@ -486,6 +486,7 @@ body {
 }
 
 .pub-image-wrapper {
+    width: 200px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -605,6 +606,8 @@ body {
 }
 
 .pub-status {
+    width: 100%;
+    min-height: 32px;
     padding: 0.4rem 0.8rem;
     background: var(--accent-primary);
     color: white;
@@ -612,8 +615,10 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    min-width: 120px;
 }
 
 .pub-status.in-prep {
