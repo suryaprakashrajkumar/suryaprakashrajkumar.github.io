@@ -24,3 +24,5 @@ After publishing:
 4. Track impressions, clicks, and queries in Search Console. Keep the bio, paper dates, submission statuses, and external profile links current.
 
 Keep the meta description, social descriptions, and structured data aligned with visible content when updating the page. The current technical SEO setup is locally checked; live indexing, rankings, and Core Web Vitals need verification after deployment. The portrait is approximately 1.2 MB, so compressing it is a potential performance improvement.
+
+The stylesheet URL includes a content version (`styles.css?v=...`) to avoid reusing cached CSS after a redesign. Update this value when changing `styles.css`; use the first 12 characters of its SHA-256 hash.
